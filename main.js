@@ -3,7 +3,7 @@ document.querySelector('button').addEventListener('click', apiRequest)
 async function apiRequest(){
     const charName = document.querySelector('input').value
     try{
-        const response = await fetch(`https://star-wars-char-api-6b47bacc83bb.herokuapp.com/api/${charName}`)
+        const response = await fetch(`https://star-wars-api-w4mc.onrender.com/api/${charName}`)
         const data = await response.json()
 
         console.log(data)
