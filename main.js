@@ -10,6 +10,8 @@ async function apiRequest(){
         document.querySelector('.species').innerText = 'species: ' + data.species
         document.querySelector('.height').innerText = 'height: ' + data.height
         document.querySelector('.allegiance').innerText = 'allegiance: ' + data.allegiance
+        const characterImage = document.querySelector('.character-image');
+        characterImage.src = data.image;
     }catch(error){
         console.log(error)
     }
