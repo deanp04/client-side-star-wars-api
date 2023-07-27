@@ -9,13 +9,6 @@
 </head>
 <body>
     <h1>Simple Site To Consume An API on Button Click</h1>
-    <input type="text">
-    <button>Click Me</button>
-    <h2 class="homeworld"></h2>
-    <h2 class="species"></h2>
-    <h2 class="height"></h2>
-    <h2 class="allegiance"></h2>
-    <img class="character-image" alt="Character Image">
 
     <p>Below is the list of names you can enter to see info for a specific character.</p>
     <p>These are also my top 16 favorite characters in Star Wars, in no particular order...</p>
@@ -40,160 +33,240 @@
         <li>Grogu</li>
     </ul>
     <!-- Open the modal using ID.showModal() method -->
-<button class="btn" onclick="modal1.showModal()">Darth Vader</button>
+<button class="btn" onclick="apiRequest(this)">Darth Vader</button>
 <dialog id="modal1" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal2.showModal()">Ahsoka Tano</button>
+<button class="btn" onclick="apiRequest(this)">Ahsoka Tano</button>
 <dialog id="modal2" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal3.showModal()">Luke Skywalker</button>
+<button class="btn" onclick="apiRequest(this)">Luke Skywalker</button>
 <dialog id="modal3" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal4.showModal()">Darth Maul</button>
+<button class="btn" onclick="apiRequest(this)">Darth Maul</button>
 <dialog id="modal4" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal5.showModal()">Yoda</button>
+<button class="btn" onclick="apiRequest(this)">Yoda</button>
 <dialog id="modal5" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal6.showModal()">Palpatine</button>
+<button class="btn" onclick="apiRequest(this)">Palpatine</button>
 <dialog id="modal6" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal7.showModal()">Chewbacca</button>
+<button class="btn" onclick="apiRequest(this)">Chewbacca</button>
 <dialog id="modal7" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal8.showModal()">Han Solo</button>
+<button class="btn" onclick="apiRequest(this)">Han Solo</button>
 <dialog id="modal8" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal9.showModal()">Kylo Ren</button>
+<button class="btn" onclick="apiRequest(this)">Kylo Ren</button>
 <dialog id="modal9" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal10.showModal()">Leia Organa</button>
+<button class="btn" onclick="apiRequest(this)">Leia Organa</button>
 <dialog id="modal10" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal11.showModal()">R2-D2</button>
+<button class="btn" onclick="apiRequest(this)">R2-D2</button>
 <dialog id="modal11" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal12.showModal()">C-3PO</button>
+<button class="btn" onclick="apiRequest(this)">C-3PO</button>
 <dialog id="modal12" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal13.showModal()">Mace Windu</button>
+<button class="btn" onclick="apiRequest(this)">Mace Windu</button>
 <dialog id="modal13" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal14.showModal()">Obi-wan Kenobi</button>
+<button class="btn" onclick="apiRequest(this)">Obi-wan Kenobi</button>
 <dialog id="modal14" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal15.showModal()">Din Djarin</button>
+<button class="btn" onclick="apiRequest(this)">Din Djarin</button>
 <dialog id="modal15" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
     <button>close</button>
   </form>
 </dialog>
-<button class="btn" onclick="modal16.showModal()">Grogu</button>
+<button class="btn" onclick="apiRequest(this)">Grogu</button>
 <dialog id="modal16" class="modal">
   <form method="dialog" class="modal-box">
-    <h3 class="font-bold text-lg">Hello!</h3>
+    <h3 class="font-bold text-lg"></h3>
+    <h2 class="homeworld"></h2>
+    <h2 class="species"></h2>
+    <h2 class="height"></h2>
+    <h2 class="allegiance"></h2>
+    <img class="character-image" alt="">
     <p class="py-4">Press ESC key or click outside to close</p>
   </form>
   <form method="dialog" class="modal-backdrop">
