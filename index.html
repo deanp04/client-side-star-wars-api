@@ -35,6 +35,18 @@
         <li>Obi-wan Kenobi</li>
         <li>Din Djarin</li>
         <li>Grogu</li>
+    </ul>
+    <!-- Open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_2.showModal()">open modal</button>
+<dialog id="my_modal_2" class="modal">
+  <form method="dialog" class="modal-box">
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">Press ESC key or click outside to close</p>
+  </form>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
 
     <script src='main.js'></script>
 </body>
