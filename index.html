@@ -3,35 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Client Side API Code</title>
+    <title>Star Wars Data API Client Side</title>
 </head>
 <body>
-    <h1>Simple Site To Consume An API on Button Click</h1>
+    <h1 class="title">Star Wars Data API</h1>
+    <img class="obi" src="images/hello-there-meme-obi-wan.jpeg" alt="obi-wan">
+    <p class="instructions">This is the client-side interface to fetch JSON from this REST API I created which contains Star Wars character data.</p>
+    <p class="instructions">Below is a list of my top 16 favorite characters in Star Wars, in no particular order...</p>
+    <p class="instructions">Click on any button to make your request for data!</p>
 
-    <p>Below is the list of names you can enter to see info for a specific character.</p>
-    <p>These are also my top 16 favorite characters in Star Wars, in no particular order...</p>
-    <p>Please allow a few seconds for the API host to wake up upon initial request</p>
-    <p>More additions to this project soon. Thanks!</p>
-    <ul>
-        <li>Darth Vader</li>
-        <li>Ahsoka Tano</li>
-        <li>Luke Skywalker</li>
-        <li>Darth Maul</li>
-        <li>Yoda</li>
-        <li>Palpatine</li>
-        <li>Chewbacca</li>
-        <li>Han Solo</li>
-        <li>Kylo Ren</li>
-        <li>Leia Organa</li>
-        <li>R2-D2</li>
-        <li>C-3PO</li>
-        <li>Mace Windu</li>
-        <li>Obi-wan Kenobi</li>
-        <li>Din Djarin</li>
-        <li>Grogu</li>
-    </ul>
+   
     <!-- Open the modal using ID.showModal() method -->
 <button class="btn" onclick="apiRequest(this)">Darth Vader</button>
 <dialog id="modal1" class="modal">
@@ -273,6 +257,7 @@
     <button>close</button>
   </form>
 </dialog>
+
 
 
     <script src='main.js'></script>

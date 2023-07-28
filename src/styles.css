@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+    max-width: 800px;
+	text-align: center;
+	border: 1px solid rgba(235, 239, 8, 0.903);
+	max-width: 600px;
+    height: 100%;
+    margin: 0 auto !important;
+	padding: 20px;
+	margin-top: 30px;
+}
+.title {
+    padding: 0 0 20px 0;
+    font-size: 2rem;
+}
+.instructions {
+    padding: 0 0 10px 0;
+}
+.obi {
+    height: 150px;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}
