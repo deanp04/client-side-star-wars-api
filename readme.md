@@ -14,9 +14,11 @@ It was a lot of fun to create my own REST API that I wanted to create a user int
 ## Next Steps for this Project
 Expand the API and add more features to the client side interface.
 
-## Examples:
+## Other projects:
 Take a look at these other projects that I have in my own portfolio:
 
-**Menu Explorer:** https://github.com/deanp04/restaurant-menu-explorer
+**Bug-Tracker Full Stack App:** (https://github.com/deanp04/bug-tracker-app-full-stack)
 
-**Star Wars Custom API Client Side:** https://github.com/deanp04/bug-tracker-app-full-stack
+**Restaurant Menu Explorer:** (https://github.com/deanp04/restaurant-menu-explorer)
+
+**Tenzies React-App:** (https://github.com/deanp04/tenzies-app)
